@@ -25,7 +25,7 @@ def gentle_cpu_worker(target_load=0.4):
 
 def start_gentle_load():
     # Задаем желаемую нагрузку (0.3 = 30%, 0.5 = 50%)
-    LOAD_PERCENT = 0.6
+    LOAD_PERCENT = 0.35 
     
     cores = multiprocessing.cpu_count()
     print(f"Обнаружено ядер: {cores}")
